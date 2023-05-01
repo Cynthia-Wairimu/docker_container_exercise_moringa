@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 COPY . .
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-EXPOSE 5000
-CMD ["python", "manage.py", "runserver", "0.0.0.0:5000"]
+EXPOSE 8000
+ENTRYPOINT ["python", "manage.py", "runserver", "0.0.0.0:8000"]
  
