@@ -8,3 +8,4 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 EXPOSE 5000
 CMD ["python", "manage.py", "runserver", "0.0.0.0:5000"]
+ 
